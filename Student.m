@@ -11,6 +11,7 @@
 % Start of Student Defining Code
 
 classdef Student
+
     % Defines class properties
     properties
         ID
@@ -21,6 +22,7 @@ classdef Student
     end
     
     methods
+    
     % Turns variables into objects
         function obj = Student(id, name, age, gpa, major)
             obj.ID = id;
@@ -29,12 +31,14 @@ classdef Student
             obj.GPA = gpa;
             obj.Major = major;
         end
+        
         % Displays objects
         function displayInfo(obj)
             fprintf('ID: %s\nName: %s\nAge: %d\nGPA: %.2f\nMajor: %s\n', ...
                 obj.ID, obj.Name, obj.Age, obj.GPA, obj.Major);
         end
-        % Allows gpa to be updated
+        
+        % Allows GPA to be updated
         function obj = updateGPA(obj, newGPA)
             obj.GPA = newGPA;
         end

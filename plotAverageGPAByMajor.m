@@ -8,10 +8,12 @@
 % Submission Date: [11/13/24]
 % All rights are reserved - GNU License
 
+# Generates an average gpa plot by major
 function plotAverageGPAByMajor(students)
     majors = unique({students.Major});
     avgGPA = arrayfun(@(m) mean([students(strcmp({students.Major}, m)).GPA]), majors);
-    
+
+    # Creates and defines the plot
     bar(avgGPA);
     set(gca, 'XTickLabel', majors);
     title('Average GPA by Major');

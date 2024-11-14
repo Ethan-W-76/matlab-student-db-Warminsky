@@ -8,6 +8,8 @@
 % Submission Date: [11/13/24]
 % All rights are reserved - GNU License
 
+% Start of Student Database Main Code 
+
 clear;
 clc;
 
@@ -57,3 +59,5 @@ plotAverageGPAByMajor(loadedDB.Students);
 
 subplot(3, 1, 3);
 plotAgeDistribution(loadedDB.Students);
+
+% End of Student Database Main Code

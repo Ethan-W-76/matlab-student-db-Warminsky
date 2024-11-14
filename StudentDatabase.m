@@ -8,6 +8,8 @@
 % Submission Date: [11/13/24]
 % All rights are reserved - GNU License
 
+% Start of Student Database Code
+
 % Defines student database
 classdef StudentDatabase
     properties
@@ -37,3 +39,5 @@ classdef StudentDatabase
         end
     end
 end
+
+% End of Student Database Code

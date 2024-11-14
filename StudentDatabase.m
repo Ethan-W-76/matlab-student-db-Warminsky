@@ -36,4 +36,3 @@ classdef StudentDatabase
         end
     end
 end
-

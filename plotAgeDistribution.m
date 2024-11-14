@@ -8,6 +8,8 @@
 % Submission Date: [11/13/24]
 % All rights are reserved - GNU License
 
+% Start of Age Distribution Plot 
+
 % Generates an age distribution histogram
 function plotAgeDistribution(students)
     ages = [students.Age];
@@ -16,3 +18,5 @@ function plotAgeDistribution(students)
     xlabel('Age');
     ylabel('Number of Students');
 end
+
+% End of Age Distribution Plot 

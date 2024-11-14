@@ -8,7 +8,7 @@
 % Submission Date: [11/13/24]
 % All rights are reserved - GNU License
 
-% Start of Age Distribution Plot 
+% Start of Age Distribution Plot Code
 
 % Generates an age distribution histogram
 function plotAgeDistribution(students)
@@ -19,4 +19,4 @@ function plotAgeDistribution(students)
     ylabel('Number of Students');
 end
 
-% End of Age Distribution Plot 
+% End of Age Distribution Plot Code

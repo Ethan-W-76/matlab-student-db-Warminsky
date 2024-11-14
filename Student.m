@@ -32,7 +32,7 @@ classdef Student
             fprintf('ID: %s\nName: %s\nAge: %d\nGPA: %.2f\nMajor: %s\n', ...
                 obj.ID, obj.Name, obj.Age, obj.GPA, obj.Major);
         end
-        % Allows GPA to be updated
+        % Allows gpa to be updated
         function obj = updateGPA(obj, newGPA)
             obj.GPA = newGPA;
         end

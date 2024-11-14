@@ -1,4 +1,4 @@
-# matlab_student_database
+# matlab-student-db-Warminsky
 This is my MATLAB Midterm Project that requires the creation and analysis of a student database.
 Within this Repository you will find a Database of six students, and three custom graphics that will assist the user in understanding the data.
 The code is formatted so that more students can be added with relative ease, and with additions, the cooresponding graphics will also update.

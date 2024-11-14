@@ -8,7 +8,7 @@
 % Submission Date: [11/13/24]
 % All rights are reserved - GNU License
 
-# Defines student database
+% Defines student database
 classdef StudentDatabase
     properties
         Students = [];

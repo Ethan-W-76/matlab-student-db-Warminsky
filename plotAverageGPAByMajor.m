@@ -8,7 +8,7 @@
 % Submission Date: [11/13/24]
 % All rights are reserved - GNU License
 
-% Start of Average GPA Plot
+% Start of Average GPA Plot Code
 
 % Generates an average GPA plot by major
 function plotAverageGPAByMajor(students)
@@ -23,4 +23,4 @@ function plotAverageGPAByMajor(students)
     ylabel('Average GPA');
 end
 
-% End of Average GPA Plot
+% End of Average GPA Plot Code

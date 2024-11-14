@@ -1,9 +1,12 @@
-% Author Name: Heidi Kling
-% Email: klingh24@rowan.edu
+% Author Name: Ethan Warminsky
+% Email: warmin16@rowan.edu 
+% Created On: 11/11/2024
+% Updated On: 11/13/2024
+% Updated By: Ethan Warminsky 
 % Course: MATLAB Programming - Fall 2024
-% Assignment: Midterm
-% Task: Student Data Base
-% Date: 11/11/2024
+% Assignment: Midterm Student Database 
+% Submission Date: [11/13/24]
+% All rights are reserved - GNU License
 
 classdef StudentDatabase
     properties

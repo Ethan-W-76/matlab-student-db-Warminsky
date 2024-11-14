@@ -8,7 +8,9 @@
 % Submission Date: [11/13/24]
 % All rights are reserved - GNU License
 
-% Plots gpa distribution of the students
+% Start of GPA Distribution Code 
+
+% Plots GPA distribution of the students
 function plotGPADistribution(students)
     gpas = [students.GPA];
     histogram(gpas, 'FaceColor', 'b');
@@ -16,3 +18,5 @@ function plotGPADistribution(students)
     xlabel('GPA');
     ylabel('Number of Students');
 end
+
+% End of GPA Distribution Code 

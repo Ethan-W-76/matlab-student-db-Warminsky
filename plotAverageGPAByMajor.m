@@ -18,4 +18,3 @@ function plotAverageGPAByMajor(students)
     xlabel('Major');
     ylabel('Average GPA');
 end
-

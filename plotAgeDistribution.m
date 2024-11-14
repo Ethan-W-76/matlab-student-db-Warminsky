@@ -8,7 +8,7 @@
 % Submission Date: [11/13/24]
 % All rights are reserved - GNU License
 
-# Generates an age distribution histogram
+% Generates an age distribution histogram
 function plotAgeDistribution(students)
     ages = [students.Age];
     histogram(ages, 'FaceColor', 'r');

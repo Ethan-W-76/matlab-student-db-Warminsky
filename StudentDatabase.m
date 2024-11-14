@@ -18,22 +18,27 @@ classdef StudentDatabase
 
     % Adds Students and their data to the Database 
     methods
+        % Name
         function obj = addStudent(obj, student)
             obj.Students = [obj.Students; student];
         end
-        
+
+        % ID
         function student = findStudentByID(obj, id)
             student = obj.Students(strcmp({obj.Students.ID}, id));
         end
-        
+
+        % Major
         function list = getStudentsByMajor(obj, major)
             list = obj.Students(strcmp({obj.Students.Major}, major));
         end
-        
+
+        % Saves File
         function saveToFile(obj, filename)
             save(filename, 'obj');
         end
-        
+
+        % Loads File
         function obj = loadFromFile(obj, filename)
             loadedData = load(filename);
             obj = loadedData.obj;

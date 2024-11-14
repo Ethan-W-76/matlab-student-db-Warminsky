@@ -8,6 +8,8 @@
 % Submission Date: [11/13/24]
 % All rights are reserved - GNU License
 
+% Start of Student Defining Code
+
 classdef Student
     % Defines class properties
     properties
@@ -39,3 +41,4 @@ classdef Student
     end
 end
 
+% Start of Student Defining Code 

@@ -10,12 +10,13 @@
 
 % Start of Student Database Code
 
-% Defines student database
+% Defines Student Database
 classdef StudentDatabase
     properties
         Students = [];
     end
-    
+
+    % Adds Students and their data to the Database 
     methods
         function obj = addStudent(obj, student)
             obj.Students = [obj.Students; student];
